@@ -73,6 +73,16 @@ while (i<tvShows.length){
 
 */
 
+function multTable(num){
+	var i = 1;
+	while(i<10){
+		console.log(i + ' x '+ num + ' = ' + i*num);
+		i++;
+	}
+}
+
+multTable(3)
+
 
 
 
