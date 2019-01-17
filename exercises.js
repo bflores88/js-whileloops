@@ -35,7 +35,7 @@ while (i<11){
 ...
 "Now serving 11"*/
 
-var i = 1
+var i = 1;
 
 while (i<11){
 	console.log('Now serving ' + i + '.');
@@ -54,7 +54,12 @@ while (i<11){
 
 var tvShows = ["Breaking Bad", "Game of Thrones", "The Bachelor", "The Walking Dead", "Keeping Up with the Kardasians"];
 
+var i = 1;
 
+while (i<tvShows.length){
+	console.log('I like to binge watch ' + tvShows[i] + '.');
+	i++;
+}
 
 /*4. Generate a multiplication table for the number 3 and print out the following:
 
