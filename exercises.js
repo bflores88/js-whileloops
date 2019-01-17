@@ -18,6 +18,12 @@ while (i<10){
 
 /*1. Use a while loop and print out a list of numbers from 1 to 10*/
 
+var i = 1
+
+while (i<11){
+	console.log(i);
+	i++;
+}
 
 
 /*2. Use a while loop to create the following message:
@@ -28,6 +34,13 @@ while (i<10){
 ...
 ...
 "Now serving 11"*/
+
+var i = 1
+
+while (i<11){
+	console.log('Now serving ' + i + '.');
+	i++;
+}
 
 
 
