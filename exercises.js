@@ -84,9 +84,6 @@ function multTable(num){
 multTable(3)
 
 
-
-
-
 /*5. Multiples of 3 and 5. Create a while loop that will loop through 100 numbers. Your job is to program the following:
 
  a) if the number is a multiple of 3, it should print "dev"
@@ -114,6 +111,20 @@ devleague homie!
 ...
 ...*/
 
+var i = 1;
+
+while (i<101){
+	if (i%3 === 0 && i%5 === 0){
+		console.log('devleague homie!');
+	} else if (i%3 === 0){
+		console.log('dev');
+	} else if (i%5 === 0){
+		console.log('league');
+	} else {
+		console.log(i);
+	}
+	i++;
+}
 
 /*
  * #6
@@ -126,6 +137,16 @@ devleague homie!
  *Pass in a number value to invoke your function. Console.log donutBought.
 */ 
 
+var donutPrice = 5;
+var donutBought = 0;
 
+function buyDonut(budget){
+	while (budget>=donutPrice){
+		budget-=donutPrice;
+		donutBought+=1;
+	}
+	return 'Donuts Bought: ' + donutBought
+}
 
+console.log(buyDonut(15));
 
